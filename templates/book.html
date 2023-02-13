@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up!</title>
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/887e6e97bd.js" crossorigin="anonymous"></script>
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- FONTS -->
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+
+<body>
+  <section class="colored-section" id="title" style="background-color: #fff4f6;">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark" style="margin-left: -15px; margin-right: -15px; margin-bottom: 15px; padding-left: 10px; background-color: #fd7990;"  >
+
+        <a class="navbar-brand" href="./" style="color: #F6F8FB;">Dr.Zawar's</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class=""></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+              <a class="nav-link" href="#footer" style="color: #F6F8FB;">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services" style="color: #F6F8FB;">What we Offer</a>
+            </li>
+            
+          </ul>
+
+        </div>
+      </nav>
+
+
+  <div class="container" id="container">
+    <div class="form-container sign-in-container">
+      <form id="theForm" action="/otp"  method="POST" style="text-align: center;">
+        <h1 class="heading">BOOK YOUR APPOINTMENT HERE</h1>
+        <input type="text" placeholder="Name" name="name" id="name" style="font-family:'Open Sans', sans-serif;" /><br>
+        <input id="number" type="text" placeholder="Mobile Number" name="number" value="+91" style="font-family:'Open Sans', sans-serif;"/><br><br>
+        <div class="ujvl" id="recaptcha-container"></div>
+        <br>
+        <br>
+        <br>
+        <label class="treatment" for="treatment" style="font-family:'Open Sans', sans-serif;; font-size: large;">Choose the treatment:</label>
+
+        <select  id="treatment" name="treatment" style="border-radius: 7px; font-family:'Open Sans', sans-serif;; padding: .3em; margin: .7em;">
+          <option value="root canal">Root canal</option>
+          <option value="checkup">Checkup</option>
+          <option value="whitening">Whitening</option>
+          <option value="braces">Braces</option>
+          <option value="veneers">Veneers</option>
+        </select><br>
+        <label class="treatment" for="treatment" style="font-family:'Open Sans', sans-serif;; font-size: large;">Please Enter the Appointment Date </label>
+        <br>
+        <input type="date" name="datee" id="datee" placeholder="select Appointment date" min= "01-01-2020" max="01-01-2021">
+          <br>
+        <label class="treatment" for="treatment" style="font-family:'Open Sans', sans-serif;; font-size: large;">Choose a preferred time:</label>
+        <select  id="time" name="time" style="border-radius: 7px; font-family:'Open Sans', sans-serif;; padding: .3em; margin: .7em;">
+          <option value="morning">9:30 am-12:00 noon</option>
+          <option value="afternoon">12:00 noon-2:00 pm</option>
+          <option value="evening">4:00 pm-6:30 pm</option>
+          <option value="night">6:30 pm-9:00 pm</option>
+        </select><br>
+        
+        <button type="button" onclick="phoneAuth();" class="kkkk">Send Code</button>
+        <br><br>
+        <input type="text" id="verificationCode" placeholder="Enter verification code"><br>
+        <button type="button" onclick="codeverify();" class="kkkk">Book</button>
+    
+    </form>
+    </div>
+  </div>
+  
+  </div>
+
+  <footer id="footer" style="text-align: center;">
+    
+    <div class="container-fluid" style="padding-top: 3em;">
+      <a href="https://www.facebook.com/drnileshzawar"><i class="social-icon fab fa-facebook-f" href=""></i></a>
+      <a href = "mailto:2012np@gmail.com?subject = Feedback smile care online portal &body = Message"><i class="social-icon fas fa-envelope"></i></a>
+    </div>
+    <p style="font-family: sans-serif;">© Copyright 2020 Smile Care Dental Products</p>
+  </footer>
+</section>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyA4i2WrOGiX22bvjw6dwc2gHxh-Lsboi2k",
+    authDomain: "https://sm1le.herokuapp.com/",
+    databaseURL: "https://smiley-f71c1-default-rtdb.firebaseio.com",
+    projectId: "smiley-f71c1",
+    storageBucket: "smiley-f71c1.appspot.com",
+    messagingSenderId: "421297711311",
+    appId: "1:421297711311:web:2b19e8c0c501784302efba",
+    measurementId: "G-9ERKKY06KR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="{{ url_for('static', filename='NumberAuthentication.js') }}" type="text/javascript"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+

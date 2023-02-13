@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Smile:)</title>
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9697c72b20.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="">Dr.Zawar's</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services">What we Offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/book">Book Appointments</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+    <div class="container-fluid background" >
+      
+      
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6" style="text-align: left; margin: auto;">
+          <h1 class="big-heading" style="text-align: inherit;">Smile Care Clinic, Bhusawal</h1>
+          <h3>We care for your smile!</h3>
+
+            <button type="button" onclick="location.href='/book'" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-tooth"></i> Book My Appointment</button>
+
+
+        </div>
+
+      
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to make apppointments</h3>
+          <p>Just a click and you're booked for your treatment.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Best Service</h3>
+          <p>We provide all types of toothcare services</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to assure you</h3>
+          <p>Find the right treatment for your teeth</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid" >
+          <h2 class="testimonial-text">With 25 yrs of experience,you will get perfect diagnosis.</h2>
+          <img class="testimonial-image" src="static/14.jpg" >
+        
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Get the opinion of two dentists with single appointment.</h2>
+          <img class="testimonial-image" src="static/15.jpg">
+          
+        </div>
+        <div class="carousel-item container-fluid" >
+          <h2 class="testimonial-text">Team of dedicated dentists for various specialised treatments!</h2>
+          <img class="testimonial-image"  src="static/16.jpg" >
+          
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    
+   
+  </section>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d306.09765863060693!2d75.78502388695671!3d21.045491746215045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd9a61611b9e23f%3A0xcff558ed4104abc7!2sSarafa%20Bazaar%2C%20Kanhaya%20Kunj%2C%20Bhusawal%2C%20Maharashtra%20425201!5e0!3m2!1sen!2sin!4v1611995366617!5m2!1sen!2sin" width="1000" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+  <!-- Press -->
+
+  <div class="doctorcards">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front" >
+        <h1 style="  font-family: 'dancing script', cursive; font-size: 4.1em; font-weight: 700;">Dr.Nilesh Zawar</h1> 
+      </div>
+      <div class="flip-card-back" style="  font-family: 'dancing script', cursive; font-size: 1.4em;">
+        <p>B.D.S (Mumbai)</p> 
+        <p>Regd. No. : A6390</p>
+        <p>Contact no. : 9890091545</p>
+        <p>email : <a href = "mailto:2012np@gmail.com?subject = Feedback smile care online portal &body = Message">2012np@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="flip-card" >
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h1 style="  font-family: 'dancing script', cursive; font-size: 4.1em; font-weight: 700;">Dr.Sonal Zawar</h1> 
+        
+      </div>
+      <div class="flip-card-back" style="  font-family: 'dancing script', cursive; font-size: 1.4em;">
+        <p>B.D.S (Mumbai)</p> 
+        <p>Regd. No. : A6828</p>
+        <p>Contact no. : 9890091545</p>
+        <p>email : <a href = "mailto:drsonalzawar@gmail.com?subject = Feedback smile care online portal &body = Message">drsonalzawar@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    
+    <div class="container-fluid" style="display: inline-block;">
+      <a href="https://www.facebook.com/drnileshzawar"><i class="social-icon fab fa-facebook-f" href=""></i></a>
+      <a href = "mailto:2012np@gmail.com?subject = Feedback smile care online portal &body = Message"><i class="social-icon fas fa-envelope"></i></a>
+      <p>© Copyright 2020 Smile Care Dental Products</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
