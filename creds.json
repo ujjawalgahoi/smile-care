@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smiley-f71c1",
+  "private_key_id": "a5b521e60d90e8a34278f9c1428bcc54d095a9db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqPsGXwTrUKYh5\nEVh2eyHq68sjRQKb7e7qaECQFv/yzPBgSrytmnt9Dzqzc3Z06VUCYoHlosw65a2p\nnHe8rQh1jl0t1qjMHZMOCp7hgNUh7bS2cIXvB82zhrE6bYidXgU8hezc2J7jJJ4b\nxXQA9MsXsJTIzG7umAeDUhxEpzaezDbKFoqlpl8hesyntmyWugye1FJ6ZdC23Tge\n3uWX7cofRZifOjoPDUGncI/U8Op6LlJNtPAiQwVyOC7a23oAzFvppbyXIpejnp6T\ncIqifKLvTk4+oKKg6J/N83qUz6bKPeegEW1meex9QwiWy7UrpWzfRepGu7OMW0Y2\nhTf6XyOvAgMBAAECggEAAXbYDBRsYMYZV2PlIo0SkJuwkUAXB/z25hXkIEPNCxXk\n0gndL5JkPNd0W3YYbw78B9uNtHTpqW6vnLAs03bwMK/7Gy7SdYGiRyejkDBJz6iP\nZQD4wJfiQV4HiNzHpQWEVANEM0NlsnHD2QdMunQLNHafVk7JJszbRlo0G18OIuAp\nKzQCQz+/4qCsb1kq8MieZa82PFZDJVfG9HWokz+tW/yfNz6a1aYGF0AwwP9vfOPY\n1CfjKSrzEOHJ6C4WqX+C/hKbiI3ai0AMXLTLB1XD7fnUvaEujEP2dU+x7iqYA28h\n3cIIW3fQU4lHivsF94gkoCP9PfUobQHE68f4PulM0QKBgQDezE+PN91RK85zdE3f\nIVm9UIrNQxfKLAGS6qiIiEyCZTfS5Spawk8WgUkg9Q/IWW9SCijuy8exeBTh9bsp\nply+yFmpDOobNtqfamAVqItLjgvQbFMgOqwHa/TVwif1mhiHUunteHBmlqxyQdKG\nyx6S4awoQhmBvwUZtMW+h+33OQKBgQDDnZBr8hgrnLR+vEs0Al5pNQgBQfqKu8q0\nsIcJ1r6GZ0CMG6Nw+Ray0igJW6FUPc/u2k8AtQzb2ae1+UNbSiiKZSZoZWiVW2O8\nz9NDt2zBUZ+5kAd8mEQjiXATjTtd6Tq8su8hYvvXCb0BGE/MyAcB1CS2FRrUUd2M\nim1B8OhKJwKBgQCboRYWEczcDYCZ720R5wb7kg5TEYHFrHWw/Y+aR7NCBpg3DfNH\nEKIUM10001oh9i8nnIc5P0mPszTLHk6N6nKwpdzTlHzXY7rVToYtut0Kev/PqEts\noO9YA9Yzlvs4uVpW9NkJE29YifmNmmMH20zRByitunZ8xkU2zqquy96zKQKBgQCU\nU7+U+oe1WifLCcAEed9Y6ytcuMjftbHo/QoIPdtOUrCxDKwMF/RMN+q/3ckg9ZXb\nyZGqOZ68ffgblhyq9jpzZmuPMYXx6tBf9T5+1HEUzW3N6RakNVlFkQt459iiRx2Q\nxCVrLYFE909nqyWnY+1cR55mqu4jHMhfrv9VxvR8dQKBgHqPSTCMTAKcxJMCiCyP\n3hbjVTT5SJ5tkiZJDkA+C3tQnBPKEbGLacPZzxlkeV4r9STLQuoBSRzV6JlHhE6B\nUJqBQ7Lada1KdP5zZYWcim5jKSathwcsFGE2n+hUt52D09wubwF2Er7QxAqhMd/8\nLG8A2ncPFTtHOiGAf5moMTRZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "smilecare@smiley-f71c1.iam.gserviceaccount.com",
+  "client_id": "101411353664185699623",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/smilecare%40smiley-f71c1.iam.gserviceaccount.com"
+}
